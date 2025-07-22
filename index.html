@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rockpaperscissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
 </head>
 <body>
-    <script src="js.js"></script>
+    <div id="overlay">
+    <div id="customAlert">
+      <h2 id="alertTitle">How many rounds do you wanna play?</h2>
+      <input type="number" id="noofrounds"><br>
+      <button id="alertCloseButton">Good luck.</button>
+    </div>
+    </div> 
+
+    <div id="overlay2">
+    <div id="endcard">
+      <h2 id="gamewinner"></h2>
+      <h3 id="humanscorefinal"></h3>
+      <h3 id="compscorefinal"></h3>
+      <button id="closebtn">Close</button>
+      <button id="tryagainbtn">Try again</button>
+    </div>
+    </div> 
+
+    </div>
+   <div id="header">
+    <p id="title">ROCK PAPER SCISSORS</p>
+   </div>
+   <div id="content">
+
+    <div id="gameplay">
+        <p id="choose">CHOOSE</p>
+        <div id="rno"></div>
+        <div id="whowon"></div>
+        <div id="img">
+         <div id="compimg">❔</div>
+         <div id="playerimg">❔</div>
+        </div>
+        <p id="comp">COMPUTER</p>
+        <p id="compscore">Score:0</p>
+        <p id="human">HUMAN</p>
+        <p id="humanscore">Score:0</p>
+
+    </div>
+
+   </div>
+   <div id="but">
+    <button id="rock">✊</button>
+    <button id="paper">✋</button>
+    <button id="scissors">✌️</button>
+   </div>
+   <p id="copyright">Copyright &copy; anvit421</p>
 </body>
 </html>
